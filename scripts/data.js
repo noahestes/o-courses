@@ -30,5 +30,32 @@ const data = {
       prereqs: [159],
       credits: 3,
     },
+    {
+      prefix: "CS",
+      number: 345,
+      title: "Software Engineering",
+      url: "https://catalog.jmu.edu/preview_course_nopop.php?catoid=50&coid=257201",
+      desc: "Study of modern methods and tools for the development of software products. Topics include software development process models, software development tools, design and construction principles and practice, software quality assurance and program management",
+      prereqs: [159],
+      credits: 3,
+    },
+    {
+      prefix: "CS",
+      number: 261,
+      title: "Computer Systems 1",
+      url: "",
+      desc: "Introduction to the operation of modern interrupt-driven computer systems. Explores the representation of software and information in binary memory, the primary components of a CPU, multithreaded programming and basic interactions with an Operating System.",
+      prereqs: [159, 227],
+      credits: 3,
+    },
+    {
+      prefix: "CS",
+      number: 347,
+      title: "Full-stack Web Development",
+      url: "https://catalog.jmu.edu/preview_course_nopop.php?catoid=50&coid=257214",
+      desc: "This course covers design and development of World Wide Web applications. Students examine protocols, architectures, development languages and facilities, and issues such as accessibility, usability, security and reliability. Students work with a suite of development tools and languages to construct a client or server application that includes a GUI and a database.",
+      prereqs: [343],
+      credits: 3,
+    }
   ],
 };
